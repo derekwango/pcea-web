@@ -1,0 +1,1131 @@
+[13-Mar-2025 17:40:09 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 278
+[13-Mar-2025 17:40:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:281
+Stack trace:
+#0 /home/pceabara/public_html/index.php(281): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 281
+[13-Mar-2025 17:40:56 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 278
+[13-Mar-2025 17:40:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:281
+Stack trace:
+#0 /home/pceabara/public_html/index.php(281): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 281
+[13-Mar-2025 17:48:22 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:48:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:53:04 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:53:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:54:45 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:54:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:54:51 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:54:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:55:10 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:55:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:56:35 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:56:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:56:44 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:56:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 17:57:55 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 17:57:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 18:00:15 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 18:00:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 18:03:59 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 18:03:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 18:13:59 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 18:13:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 18:20:23 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[13-Mar-2025 18:20:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[13-Mar-2025 18:28:14 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/index.php on line 332
+[13-Mar-2025 18:28:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/index.php:340
+Stack trace:
+#0 /home/pceabara/public_html/index.php(340): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 340
+[13-Mar-2025 18:28:33 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/project.php on line 8
+[13-Mar-2025 18:28:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/project.php:15
+Stack trace:
+#0 /home/pceabara/public_html/project.php(15): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/project.php on line 15
+[13-Mar-2025 18:36:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 18:41:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:398
+Stack trace:
+#0 /home/pceabara/public_html/index.php(398): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 398
+[13-Mar-2025 19:12:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:398
+Stack trace:
+#0 /home/pceabara/public_html/index.php(398): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 398
+[13-Mar-2025 19:22:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 19:23:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 19:24:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 19:25:17 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[13-Mar-2025 19:25:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[13-Mar-2025 19:25:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 21:14:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 21:49:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 21:49:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 22:19:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 22:22:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[13-Mar-2025 22:22:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 00:05:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 00:20:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 00:27:55 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[14-Mar-2025 00:27:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[14-Mar-2025 02:04:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 02:26:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 02:39:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 03:51:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 05:05:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 05:44:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 06:27:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 07:29:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 07:53:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 09:05:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 09:25:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 09:30:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 09:53:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 09:53:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 09:53:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 12:25:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 12:25:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 12:32:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 12:59:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:05:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:07:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:10:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:13:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:16:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:19:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:22:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:27:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:29:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:32:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:37:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:42:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 13:45:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 15:05:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 15:20:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 16:02:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 17:43:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 17:48:58 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[14-Mar-2025 17:48:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[14-Mar-2025 17:50:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 18:05:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 18:23:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 19:10:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 19:10:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 20:14:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 22:33:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 22:36:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 22:36:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 22:36:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 22:57:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[14-Mar-2025 23:52:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 00:06:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 00:35:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 02:03:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 02:23:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 02:30:08 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[15-Mar-2025 02:30:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[15-Mar-2025 02:38:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 02:47:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:03:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:03:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:03:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:04:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:20:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:25:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:26:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 03:46:40 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/project.php on line 8
+[15-Mar-2025 03:46:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/project.php:15
+Stack trace:
+#0 /home/pceabara/public_html/project.php(15): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/project.php on line 15
+[15-Mar-2025 04:42:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 04:42:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 06:35:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 06:43:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 07:43:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 08:31:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 09:09:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 09:55:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 09:55:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 11:05:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 11:08:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 11:09:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 11:09:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 11:25:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 13:38:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 13:41:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 13:48:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 14:53:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 15:06:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 17:12:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 18:03:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:388
+Stack trace:
+#0 /home/pceabara/public_html/index.php(388): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 388
+[15-Mar-2025 18:18:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' to database 'pceabara_pcea' in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 18:49:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' to database 'pceabara_pcea' in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:14:45 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 4
+[15-Mar-2025 19:14:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_pcea'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:7
+Stack trace:
+#0 /home/pceabara/public_html/index.php(7): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 7
+[15-Mar-2025 19:14:47 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 4
+[15-Mar-2025 19:14:47 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_pcea'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:7
+Stack trace:
+#0 /home/pceabara/public_html/index.php(7): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 7
+[15-Mar-2025 19:23:25 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 4
+[15-Mar-2025 19:23:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_pcea'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:7
+Stack trace:
+#0 /home/pceabara/public_html/index.php(7): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 7
+[15-Mar-2025 19:26:22 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:26:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_pcea'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:30:03 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:30:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_pcea'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:36:25 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:36:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_pcea'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:41:43 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[15-Mar-2025 19:41:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[15-Mar-2025 19:44:39 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:44:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:44:43 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:44:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:44:45 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:44:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:46:07 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:46:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 19:48:08 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 19:48:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 21:20:03 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 21:20:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:01:32 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:01:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:06:20 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:06:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:07:22 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:07:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:08:30 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:08:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:08:32 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:08:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:09:35 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:09:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:10:37 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:10:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:10:38 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:10:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:11:40 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:11:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:12:41 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:12:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:12:44 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:12:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:13:45 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:13:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 22:14:46 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 22:14:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[15-Mar-2025 23:45:59 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[15-Mar-2025 23:45:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 00:07:22 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 00:07:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 01:34:08 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 01:34:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 02:04:35 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 02:04:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 02:30:19 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 02:30:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 03:50:50 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 03:50:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 06:21:18 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 06:21:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 06:21:19 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 06:21:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 06:21:21 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 06:21:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 06:21:22 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 06:21:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 08:21:04 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 08:21:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 09:30:08 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 09:30:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 09:40:14 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 09:40:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 09:41:42 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 09:41:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 09:41:44 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 09:41:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 09:45:05 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 09:45:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 13:24:19 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 13:24:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 13:24:20 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 13:24:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 13:37:11 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 13:37:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 14:45:39 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 14:45:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 14:56:38 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 14:56:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 15:00:52 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 15:00:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 15:04:58 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 15:04:58 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 17:58:45 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 17:58:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 18:03:03 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 18:03:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 18:03:13 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/index.php on line 5
+[16-Mar-2025 18:03:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/index.php:8
+Stack trace:
+#0 /home/pceabara/public_html/index.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 8
+[16-Mar-2025 18:21:09 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/home.php on line 5
+[16-Mar-2025 18:21:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/home.php:8
+Stack trace:
+#0 /home/pceabara/public_html/home.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/home.php on line 8
+[16-Mar-2025 18:22:14 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/test_db.php on line 4
+[16-Mar-2025 18:22:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/test_db.php:8
+Stack trace:
+#0 /home/pceabara/public_html/test_db.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/test_db.php on line 8
+[16-Mar-2025 18:22:17 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/test_db.php on line 4
+[16-Mar-2025 18:22:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/test_db.php:8
+Stack trace:
+#0 /home/pceabara/public_html/test_db.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/test_db.php on line 8
+[16-Mar-2025 18:22:18 UTC] PHP Warning:  Undefined variable $A in /home/pceabara/public_html/test_db.php on line 4
+[16-Mar-2025 18:22:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'pceabara_root'@'localhost' (using password: YES) in /home/pceabara/public_html/test_db.php:8
+Stack trace:
+#0 /home/pceabara/public_html/test_db.php(8): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/test_db.php on line 8
+[16-Mar-2025 18:22:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/home.php:393
+Stack trace:
+#0 /home/pceabara/public_html/home.php(393): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/home.php on line 393
+[16-Mar-2025 18:23:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/pceabara/public_html/index.php:393
+Stack trace:
+#0 /home/pceabara/public_html/index.php(393): mysqli->__construct()
+#1 {main}
+  thrown in /home/pceabara/public_html/index.php on line 393
+[16-Mar-2025 18:23:16 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[16-Mar-2025 18:23:16 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[16-Mar-2025 18:40:42 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[16-Mar-2025 18:40:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[16-Mar-2025 18:42:11 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[16-Mar-2025 18:42:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[16-Mar-2025 19:23:36 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[16-Mar-2025 19:23:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[16-Mar-2025 21:20:19 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/events.php on line 89
+[16-Mar-2025 21:20:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/events.php:101
+Stack trace:
+#0 /home/pceabara/public_html/events.php(101): mysqli->query()
+#1 {main}
+  thrown in /home/pceabara/public_html/events.php on line 101
+[17-Mar-2025 07:09:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pceabara/public_html/index.php on line 350
+[17-Mar-2025 07:09:50 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pceabara/public_html/index.php on line 350
+[17-Mar-2025 07:10:07 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pceabara/public_html/events.php on line 122
+[17-Mar-2025 07:10:07 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pceabara/public_html/events.php on line 122
+[17-Mar-2025 07:10:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pceabara/public_html/index.php on line 350
+[17-Mar-2025 07:10:27 UTC] PHP Deprecated:  htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /home/pceabara/public_html/index.php on line 350
+[17-Mar-2025 17:10:41 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[17-Mar-2025 17:10:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[17-Mar-2025 17:32:30 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[17-Mar-2025 17:32:30 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[17-Mar-2025 21:18:18 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[17-Mar-2025 21:18:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[17-Mar-2025 23:12:39 UTC] PHP Warning:  Undefined array key "cReason" in /home/pceabara/public_html/contact.php on line 6
+[17-Mar-2025 23:12:39 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[17-Mar-2025 23:12:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[18-Mar-2025 16:52:13 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[18-Mar-2025 16:52:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[19-Mar-2025 10:14:20 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[19-Mar-2025 10:14:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[19-Mar-2025 12:45:33 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[19-Mar-2025 12:45:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[19-Mar-2025 15:12:17 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[19-Mar-2025 15:12:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[27-Mar-2025 16:52:36 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[27-Mar-2025 16:52:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[27-Mar-2025 17:35:13 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[27-Mar-2025 17:35:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[28-Mar-2025 00:48:12 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[28-Mar-2025 00:48:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[28-Mar-2025 19:42:45 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[28-Mar-2025 19:42:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[28-Mar-2025 23:44:52 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[28-Mar-2025 23:44:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[31-Mar-2025 22:08:59 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[31-Mar-2025 22:08:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[02-Apr-2025 21:11:31 UTC] PHP Warning:  Undefined array key "cReason" in /home/pceabara/public_html/contact.php on line 6
+[02-Apr-2025 21:11:31 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[02-Apr-2025 21:11:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[03-Apr-2025 05:47:52 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[03-Apr-2025 05:47:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[04-Apr-2025 01:02:36 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[04-Apr-2025 01:02:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[11-Apr-2025 22:45:36 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[11-Apr-2025 22:45:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[24-Apr-2025 13:50:06 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[24-Apr-2025 13:50:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[26-Apr-2025 16:13:33 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[26-Apr-2025 16:13:33 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24
+[14-May-2025 01:19:44 UTC] PHP Warning:  Undefined variable $dbname in /home/pceabara/public_html/contact.php on line 16
+[14-May-2025 01:19:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: No database selected in /home/pceabara/public_html/contact.php:24
+Stack trace:
+#0 /home/pceabara/public_html/contact.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/pceabara/public_html/contact.php on line 24

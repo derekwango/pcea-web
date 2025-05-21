@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Header and logo styles */
+        .logo-text {
+            color: white;
+            transition: color 0.3s ease;
+        }
+
+        /* Desktop dropdown styles */
+        .header-nav li {
+            position: relative;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 120%;
+            left: 0;
+            background: #333333; /* Charcoal background */
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+            z-index: 1000;
+            width: 200px;
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        .header-nav li.open .dropdown {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .dropdown-toggle {
+            color: white; /* White color for dropdown toggle */
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        /* Hide group menu in desktop mode */
+        .group-menu {
+            display: none;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .group-menu li {
+            list-style: none;
+        }
+
+        /* Mobile-specific styles */
+        @media screen and (max-width: 768px) {
+            .dropdown {
+                position: static;
+                background: #333333; /* Charcoal background for mobile dropdown */
+                width: 100%;
+                box-shadow: none;
+                border-radius: 0;
+                transform: none;
+                opacity: 1;
+            }
+
+            .header-nav li.open .dropdown {
+                max-height: 500px;
+            }
+
+            .dropdown-toggle {
+                color: white; /* White for the mobile dropdown toggle */
+                cursor: pointer;
+            }
+
+            .header-nav-wrap {
+                display: none;
+                height: 100vh;
+                width: 100%;
+                background-color: #333333; /* Charcoal background */
+                padding: 14rem 4.4rem 6.4rem;
+                position: absolute;
+                left: 0;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+                overflow: hidden;
+            }
+
+            body.menu-open {
+                overflow: hidden;
+            }
+
+            /* Ensure group menu only shows when triggered */
+            .group-menu {
+                display: none;
+                max-height: 70vh; /* Set a max height relative to the viewport */
+                overflow-y: auto; /* Enable vertical scrolling */
+                background-color: #333333; /* Charcoal background */
+                padding: 1rem; /* Add spacing */
+                border-radius: 8px; /* Optional styling */
+            }
+
+            /* When the menu is open, change the logo text color */
+            body.menu-open .logo-text {
+                color: white; /* Keep logo text white */
+            }
+
+            /* If the menu is closed, reset logo text color */
+            body:not(.menu-open) .logo-text {
+                color: white; /* Keep logo text white */
+            }
+        }
+
+        /* Ensure group menu NEVER appears in desktop view */
+        @media screen and (min-width: 769px) {
+            .group-menu {
+                display: none !important;
+            }
+        }
+
+        .header-nav-wrap .header-nav li a, .group-menu li a {
+            line-height: 20px;
+            display: block;
+            padding: 14px 0px;
+            color: white; /* White color for all links */
+        }
+
+        .group-menu li button {
+            background: none;
+            border: none;
+            color: white; /* White color for button */
+            font-size: 16px;
+            padding: 18px 0px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="s-header">
+        <div class="header-logo">
+            <a class="site-logo" href="../index.php" style="color: white; font-weight: bold;">
+                <img src="../images/logo.png" alt="Homepage">
+                <span class="logo-text">PCEA BARAKA</span>
+            </a>
+        </div>
+
+        <nav class="header-nav-wrap" id="menu-container">
+            <ul class="header-nav" id="main-menu">
+                <li class="current"><a href="../index.php" title="Home">Home</a></li>
+                <li><a href="../about.php" title="About">About</a></li>
+                <li class="has-dropdown">
+                    <span role="button" class="dropdown-toggle" title="Ministries" id="group-toggle">GROUPS</span>
+                    <ul class="dropdown">
+                        <li><a href="../ministries/pcmf.php">PCMF</a></li>
+                        <li><a href="../ministries/womansg.php">Woman's Guild</a></li>
+                        <li><a href="../ministries/youth.php">YOUTH</a></li>
+                        <li><a href="../ministries/churchsch.php">CHURCH SCHOOL</a></li>
+                        <li><a href="../ministries/brigade.php">BRIGADE</a></li>
+                        <li><a href="../ministries/health.php">HEALTH BOARD</a></li>
+                        <li><a href="../ministries/jprc.php">JPRC</a></li>
+                        <li><a href="../ministries/christed.php">CHRISTIAN ED</a></li>
+                    </ul>
+                </li>
+                <li><a href="../events.php" title="Events">Events</a></li>
+                <li><a href="../sermons/" title="Sermons">Sermons</a></li>
+                <li><a href="../project.php" title="Project">Project</a></li>
+                <li><a href="../contact.php" title="Contact us">Contact</a></li>
+            </ul>
+            
+            <ul class="group-menu" id="group-menu">
+                <li><button id="back-btn">← Back</button></li>
+                <li><a href="../ministries/pcmf.php">PCMF</a></li>
+                <li><a href="../ministries/womansg.php">Woman's Guild</a></li>
+                <li><a href="../ministries/youth.php">YOUTH</a></li>
+                <li><a href="../ministries/churchsch.php">CHURCH SCHOOL</a></li>
+                <li><a href="../ministries/brigade.php">BRIGADE</a></li>
+                <li><a href="../ministries/health.php">HEALTH BOARD</a></li>
+                <li><a href="../ministries/jprc.php">JPRC</a></li>
+                <li><a href="../ministries/christed.php">CHRISTIAN ED</a></li>
+                <li><a href="../ministries/choir.php">CHOIR</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+    </header>
+
+    <script>
+        const groupToggle = document.getElementById('group-toggle');
+const mainMenu = document.getElementById('main-menu');
+const groupMenu = document.getElementById('group-menu');
+const backBtn = document.getElementById('back-btn');
+const body = document.body;
+const logoText = document.querySelector('.logo-text');  // Select the logo text
+const dropdown = document.querySelector('.dropdown'); // Select the dropdown
+
+let isMenuOpen = false; // Track main menu state
+let isDropdownOpen = false; // Track dropdown state
+
+// Open Groups Section in mobile mode
+groupToggle.addEventListener('click', function (event) {
+    if (window.innerWidth <= 768) {  // Only for mobile view
+        event.preventDefault();
+        mainMenu.style.display = 'none';
+        groupMenu.style.display = 'block';
+        body.classList.add('menu-open');
+        logoText.style.color = 'white';  // Keep logo color white when menu is open
+        isMenuOpen = true;
+    } else {
+        // Handle dropdown toggle on desktop
+        event.preventDefault();
+        
+        if (isDropdownOpen) {
+            dropdown.style.display = 'none';
+            body.classList.remove('menu-open');
+            logoText.style.color = 'white';  // Keep logo color white
+        } else {
+            dropdown.style.display = 'block';
+            body.classList.add('menu-open');
+            logoText.style.color = 'white';  // Keep logo color white
+        }
+        
+        isDropdownOpen = !isDropdownOpen;  // Toggle the state for dropdown
+    }
+});
+
+// Back button to return to main menu in mobile mode
+backBtn.addEventListener('click', function () {
+    groupMenu.style.display = 'none';
+    mainMenu.style.display = 'block';
+    body.classList.remove('menu-open');
+    logoText.style.color = 'white';  // Keep logo color white when menu is closed
+    isMenuOpen = false;
+});
+
+// Ensure dropdown works properly in desktop mode (hover behavior)
+document.querySelector('.has-dropdown').addEventListener('mouseenter', function () {
+    if (window.innerWidth > 768) {
+        this.classList.add('open');
+    }
+});
+
+document.querySelector('.has-dropdown').addEventListener('mouseleave', function () {
+    if (window.innerWidth > 768) {
+        this.classList.remove('open');
+    }
+});
+
+// Reset styles when switching from mobile back to desktop
+window.addEventListener('resize', function () {
+    if (window.innerWidth > 768) {
+        mainMenu.style.display = '';
+        groupMenu.style.display = 'none';
+
+        // Ensure the dropdown is hidden when switching to desktop mode
+        dropdown.style.display = 'none';
+        isDropdownOpen = false;
+
+        if (isMenuOpen) {
+            logoText.style.color = 'white';
+        } else {
+            logoText.style.color = 'white';
+        }
+    } else {
+        // When switching to mobile, ensure the dropdown is closed
+        dropdown.style.display = 'none';
+        isDropdownOpen = false;
+
+        if (isMenuOpen) {
+            logoText.style.color = 'white';
+        }
+    }
+});
+
+    </script>
+</body>
+</html>

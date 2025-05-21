@@ -1,0 +1,330 @@
+html.ss-loaded .hero-content {
+  -webkit-animation-duration: 0s;
+  animation-duration: 0s;
+  -webkit-animation-name: none;
+  animation-name: none;
+}
+
+strong{
+            font-family: "Poppins", sans-serif;
+}
+
+.content-section {
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.left-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.left-column h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.right-column p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/*=================WHAT WE DO========================*/
+.what-we-do {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.contain {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.what-we-do h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;  /* Adjust line height for better readability */
+    max-width: 800px;  /* Limit the width to control where the text breaks */
+    margin-bottom: 20px;  /* Add bottom margin */
+    text-align: left;  /* Ensure the text is aligned to the left */
+}
+
+.cols {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex: 1;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: left;  /* Ensure columns are left-aligned */
+}
+
+.col h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.col p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/*================LEADERS====================*/
+.team-section {
+    text-align: center;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.team-section h2 {
+    font-size: 3.9rem;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.team-member h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    color: #555;
+    font-size: 0.9em;
+}
+
+.team-member:hover img {
+    transform: scale(1.1);
+}
+
+/* Mobile view: 1 image per row */
+@media (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Desktop view: 4 images per row */
+@media (min-width: 769px) {
+    .team-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+/*================LEARN MORE ====================*/
+
+
+.accordion-container {
+    width: 100%; /* Set width to 90% of the viewport */
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    padding-bottom: 7rem;
+}
+
+.accordion-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #242e4c;
+}
+
+.accordion {
+    width: 100%;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #dae1f5;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: background-color 0.3s;
+}
+
+.accordion-header h3 {
+    font-size: 18px;
+    color: #242e4c;
+    margin: 0;
+}
+
+.accordion-icon {
+    font-size: 20px;
+    color: #FF4B4B;
+    transition: transform 0.3s;
+}
+
+.accordion-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease, padding 0.1s ease;
+}
+
+
+.accordion-body p {
+    padding: 15px 20px;
+    font-size: 16px;
+}
+
+.accordion-item.active .accordion-body {
+    max-height: 1000px; /* Increase max height to a large value */
+    padding: 10px 15px; /* Add padding to make content more readable */
+}
+
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(45deg);
+}
+
+.accordion-item:hover {
+    background-color: #f0f4fa;
+}
+
+/* General Section Styling */
+.leaders-section {
+    text-align: center;
+/*    padding: 40px 20px;*/
+    background-color: #f4f4f4;
+}
+
+.leaders-section h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Grid Layout for Leaders */
+.leaders-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+/*    max-width: 800px;*/
+    margin: auto;
+}
+
+/* Card Style for Each Leader */
+.leader-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.leader-card h3 {
+    font-size: 18px;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+.leader-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Hover Effect */
+.leader-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+    .accordion-container {
+        width: 100%; /* Make the container width 80% for medium and larger screens */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .accordion-container {
+        width: 100%; /* On even larger screens, reduce width slightly for better appearance */
+    }
+}
+/*=============MEDIA QUERY=======================*/
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column {
+        margin-bottom: 20px;
+    }
+
+    .left-column h2 {
+        font-size: 22px;
+    }
+
+    .right-column p {
+        font-size: 14px;
+    }
+
+/*================WHAT WE DO===================*/
+    .cols {
+        flex-direction: column;
+    }
+
+    .col {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .what-we-do h2 {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 16px;
+        max-width: 90%;  /* Adjust paragraph width for mobile view */
+        text-align: left;  /* Keep text left-aligned on mobile */
+    }
+}

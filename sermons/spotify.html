@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spotify Card</title>
+<style>
+  /* Card styling */
+  .spotify-card {
+    background-color: darkslateblue;
+    color: #fff;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    padding-bottom: 2rem;
+  }
+  .spotify-card:hover {
+    transform: translateY(-5px);
+  }
+
+  /* Logo styling */
+  .spotify-logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+  }
+
+  /* Text styling */
+  .spotify-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .spotify-description {
+    font-size: 0.9em;
+    color: #d1fae5;
+    margin-bottom: 15px;
+  }
+
+  /* Button styling */
+  .spotify-button {
+    display: inline-block;
+    background-color: #fff;
+    color: #1db954;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .spotify-button:hover {
+    background-color: #d1fae5;
+  }
+</style>
+</head>
+<body>
+
+<div class="spotify-card">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" alt="Spotify Logo" class="spotify-logo">
+  <div class="spotify-text">Listen on Spotify</div>
+  <p class="spotify-description">Catch up on our latest episodes and enjoy a world of music and inspiration.</p>
+  <a href="https://open.spotify.com/show/0knIjLVOwS2codnTUtLZia" class="spotify-button" target="_blank">Open Spotify</a>
+</div>
+
+</body>
+</html>

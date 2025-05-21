@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Audio Gallery</title>
+<style>
+  /* Gallery container */
+  .gallery {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  /* Audio card styling */
+  .audio-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .audio-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Title styling */
+  .audio-card h3 {
+    font-size: 1.25em;
+    margin-bottom: 12px;
+    color: #333;
+  }
+
+  /* Audio player */
+  .audio-card audio {
+    width: 100%;
+    margin-bottom: 15px;
+    outline: none;
+  }
+
+  /* Download button */
+  .download-btn {
+    display: inline-block;
+    background-color: #0073e6;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.95em;
+    font-weight: 600;
+    transition: background-color 0.3s;
+  }
+
+  .download-btn:hover {
+    background-color: #005bb5;
+  }
+
+   @media (max-width: 600px) {
+    .gallery {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (min-width: 601px) and (max-width: 900px) {
+    .gallery {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (min-width: 901px) {
+    .gallery {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <!-- Audio Card 1 -->
+  <div class="audio-card">
+    <h3>Audio Title 1</h3>
+    <audio controls>
+      <source src="path/to/your-audio1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <a href="path/to/your-audio1.mp3" class="download-btn" download>Download</a>
+  </div>
+
+  <!-- Audio Card 2 -->
+  <div class="audio-card">
+    <h3>Audio Title 2</h3>
+    <audio controls>
+      <source src="path/to/your-audio2.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <a href="path/to/your-audio2.mp3" class="download-btn" download>Download</a>
+  </div>
+
+  <!-- Additional audio cards as needed -->
+</div>
+
+</body>
+</html>

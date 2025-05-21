@@ -1,0 +1,168 @@
+<style>
+        /* General Section Styling */
+        .leaders-section {
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .leaders-section h2 {
+            font-size: 26px;
+            color: #333;
+/*            margin-bottom: 20px;*/
+        }
+
+        /* Grid Layout for Leaders */
+        .leaders-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* Default: 4 columns */
+            gap: 20px;
+            margin: auto;
+/*            max-width: 800px;*/
+        }
+
+        /* Responsive Design: Single Column on Small Screens */
+        @media (max-width: 768px) {
+            .leaders-list {
+                grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+            }
+        }
+
+        /* Card Style for Each Leader */
+        .leader-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .leader-card h3 {
+            font-size: 18px;
+            color: #222;
+            margin-bottom: 5px;
+        }
+
+        .leader-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Hover Effect */
+        .leader-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="leaders-section">
+        <div class="leaders-list">
+            <!-- JavaScript will insert leaders here -->
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        // Leader data for different groups
+        const pageLeaders = {
+            "pcmf.php": [
+                { name: "Peter N. Wachira", role: "Chairman" },
+                { name: "Edward Kiarie", role: "Vice Chairman" },
+                { name: "Michael Ndung’u Mwaura", role: "Secretary" },
+                { name: "Kinuthia Mbugua", role: "Vice Secretary" },
+                { name: "Joseph Kaiyehe", role: "Treasurer" },
+                { name: "Kenneth K. Muiruri", role: "Vice Treasurer" },
+                { name: "Elder Charles Kago", role: "Patron" }
+            ],
+            "womansg.php": [
+                { name: "Rose Wanja Muiruri", role: "Chairperson" },
+                { name: "Mary Waithira Gitau", role: "Vice Chairperson" },
+                { name: "Ann Waringa Kibuthu", role: "Secretary" },
+                { name: "Anne Wambui Muchane", role: "Vice Secretary" },
+                { name: "Sarah Wanjiru Mwangi", role: "Treasurer" },
+                { name: "Elder Faith Macharia", role: "Patron" }
+            ],
+            "youth.php": [
+                { name: "Lilian Kibui Ngunu", role: "Chairperson" },
+                { name: "Robert Nderui Kahoro", role: "Vice Chairperson" },
+                { name: "Jeff Miringu", role: "Secretary" },
+                { name: "Joe Mwangi", role: "Vice Secretary" },
+                { name: "Grace Njeri Mwangi", role: "Treasurer" },
+                { name: "Elder Elias Njoroge", role: "Patron" }
+            ],
+            "churchsch.php": [
+                { name: "Teresiah Njoki Ciira", role: "Chairperson" },
+                { name: "Mary Wanjugu Nduati", role: "Vice Chairperson" },
+                { name: "Mercy Wanjiru Irungu", role: "Secretary" },
+                { name: "Maureen Wanjiru Kinyanjui", role: "Vice Secretary" },
+                { name: "Sarah Njeri Nyaga", role: "Treasurer" },
+                { name: "Elder Benard Ngari", role: "Patron" }
+            ],
+            "brigade.php": [
+                { name: "John Ndirangu", role: "Chairperson" },
+                { name: "Esther Wambui", role: "Vice Chairperson" },
+                { name: "Elizabeth Murigu", role: "Secretary" },
+                { name: "Shalom Mugo", role: "Vice Secretary" },
+                { name: "Margaret Nguku", role: "Treasurer" },
+                { name: "Elder Benard Ngari", role: "Patron" }
+            ],
+            "health.php": [
+                { name: "Joan Muya", role: "Chairperson" },
+                { name: "Esther Njoki", role: "Vice Chairperson" },
+                { name: "Samuel Wango", role: "Secretary" },
+                { name: "Esther Njoroge", role: "Vice Secretary" },
+                { name: "Phiona Ndachi", role: "Treasurer" },
+                { name: "Elder Jane Kariuki", role: "Patron" }
+            ],
+            "jprc.php": [
+                { name: "Margaret Kimani", role: "Chairperson" },
+                { name: "Rose Wanja Muiruri", role: "Vice Chairperson" },
+                { name: "Zipporah Kibe", role: "Secretary" },
+                { name: "Loise Gitu", role: "Vice Secretary" },
+                { name: "Jane Kiarie", role: "Treasurer" },
+                { name: "Elder Jane Kariuki", role: "Patron" }
+            ],
+            "christed.php": [
+                { name: "Grace Waweru", role: "Chairperson" },
+                { name: "Elizabeth Kungu", role: "Vice Chairperson" },
+                { name: "Catherine Wango", role: "Secretary" },
+                { name: "Margaret Ngugi", role: "Vice Secretary" },
+                { name: "Naomi Ndichu", role: "Treasurer" },
+                { name: "Elder Margaret Gitau", role: "Patron" }
+            ]
+        };
+
+        // Function to get the current page filename
+        function getCurrentPage() {
+            let page = window.location.pathname.split("/").pop();
+            console.log("Detected Page:", page); // Debugging check
+            return page;
+        }
+
+        // Function to load leaders based on the page
+        function loadLeaders() {
+            const page = getCurrentPage();
+            let leaders = pageLeaders[page] || [];
+            const container = document.querySelector(".leaders-list");
+
+            if (!container) return; // Exit if no leaders-list container is found
+
+            container.innerHTML = ""; // Clear existing content
+
+            // Loop through leaders and create cards
+            leaders.forEach(leader => {
+                const card = document.createElement("div");
+                card.classList.add("leader-card");
+                card.innerHTML = `<h3>${leader.name}</h3><p>${leader.role}</p>`;
+                container.appendChild(card);
+            });
+
+            console.log("Leaders Loaded:", leaders); // Debugging check
+        }
+
+        // Run the function when the page loads
+        document.addEventListener("DOMContentLoaded", loadLeaders);
+    </script>
+
+</body>
