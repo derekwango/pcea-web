@@ -62,9 +62,9 @@ HTML5 / CSS3 / JavaScript
 
 PHP – Backend scripting
 
-MySQL – Database (if used)
+MySQL – Database 
 
-(Optional: Admin panel may use Bootstrap or other libraries)
+(Optional: Admin panel uses Bootstrap and other libraries)
 
 # Contributing
 We welcome suggestions and improvements. To contribute:
