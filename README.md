@@ -11,7 +11,7 @@ This website serves as a digital home for the church community — providing acc
 - Church service details and event calendar
 - Ministry pages (youth, women, PCMF, health, etc.)
 - Sermons and audio content
-- Online giving (e.g., M-Pesa)
+- Online giving (e.g., M-Pesa) --about to be implemented
 - Volunteer and contact forms
 - Admin panel for content management
 
