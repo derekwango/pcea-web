@@ -49,7 +49,7 @@ This website serves as a digital home for the church community — providing acc
 ## Local Setup
 Clone the repository:
 ```text
-    git clone https://github.com/<your-username>/pcea-web.git
+    git clone https://github.com/derekwango/pcea-web.git
 ```
 Place files into your web server directory (e.g. htdocs/ or public/_html/)
 
